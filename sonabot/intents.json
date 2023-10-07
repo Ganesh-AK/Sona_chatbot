@@ -1,5 +1,5 @@
 {
-   "intents":[
+   "intents": [
  {
    "tag": "greeting",
    "patterns": [
@@ -153,32 +153,90 @@
       "what are the courses offered in your college?",
       "courses?",
       "courses offered",
-      "courses offered in (your univrsity(UNI) name)",
       "courses you offer",
       "branches?",
-      "courses available at UNI?",
       "branches available at your college?",
-      "what are the courses in UNI?",
-      "what are branches in UNI?",
-      "what are courses in UNI?",
-      "branches available in UNI?",
-      "can you tell me the courses available in UNI?",
-      "can you tell me the branches available in UNI?",
-      "computer engineering?",
-      "computer",
-      "Computer engineering?",
-      "it",
-      "IT",
-      "Information Technology",
-      "AI/Ml",
-      "Mechanical engineering",
-      "Chemical engineering",
-      "Civil engineering"
+      "what are the courses in sona?",
+      "what are branches in sona?",
+      "what are courses in sona?",
+      "branches available in sona?",
+      "can you tell me the courses available in sona?",
+      "can you tell me the branches available in sona?",
+      "Could you please provide me with a list of the courses offered?",
+      "May I have access to the course list?",
+       "Can you show me the courses?",
+      "What courses are available?",
+      "I'd like to check out the list of courses.",
+       "Could you please provide me with a list of departments?",
+      "Would it be possible to get a list of departments?",
+      "May I have a list of the departments, please?",
+     "Request for List of Departments",
+      "Inquiry Regarding Departmental Structure",
+      "I would like to request a list of all the departments within the organization.",
+      "I would like to see the full list of available courses.",
+      "Department list",
+     "course list"
+
+
    ],
    "responses": [
-      "Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering."
+      "Our College offers \nMechanical Engineering, \nMechatronics Engineering, \nElectrical and Electronics Engineering(EEE),\nElectronics and Communication Engineering(ECE), \nBio Medical Engineering(BME),\nComputer Science and Engineering(CSE),\nInformation Technology(IT), \nCivil Engineering,\nFashion Technology(FT),\nMaster of Business Administration(MBA),\nMaster of Computer Applications(MCA) "
    ],
    "context_set": ""
+},
+{
+   "tag": "location",
+   "patterns": [
+      "Where is the college located?",
+      "What is the address of the college?",
+      "Could you tell me where the college is situated?",
+      "How do I get to the college?",
+      "Can you provide directions to the college?",
+      "give me the college location",
+      "college location",
+     "where is the college located",
+      "college is located at",
+      "where is college",
+      "where is college located",
+      "address of college",
+      "how to reach college",
+      "college location",
+      "college address",
+      "wheres the college",
+      "how can I reach college",
+      "whats is the college address",
+      "what is the address of college",
+      "address",
+      "Could you please provide me with the address of the college?",
+      "I need the physical address of the college, please.",
+      "What is the official address of the college?",
+      "Can you share the location details of the college?",
+      "Where can I find the college? I need the address.",
+      "May I have the street address of the college?",
+      "What is the postal address for the college?",
+      "I'm looking for the college's address, can you assist?",
+      "Could you let me know where the college is located?",
+      "What is the street name and number for the college?",
+      "location"
+   ],
+   "responses": [
+       "location link :https://www.google.com/maps/place/Sona+College+of+Technology/@11.6813556,78.1170698,15.22z/data=!4m14!1m7!3m6!1s0x3babf07c69a73193:0x1763a596a81daa92!2sShri+Kavadi+Palani+Andavar+Kovil!8m2!3d11.6811249!4d78.1180427!16s%2Fg%2F1pyqhp_n_!3m5!1s0x3babf065115b5f7d:0x1d08f4d05518b24d!8m2!3d11.6781339!4d78.1244388!16s%2Fm%2F03cgmpl?hl=en-US&entry=ttu \nSona College of Technology,\nJunction Main Road,\nSalem - 636 005,\nTamilnadu, India.,\nEmail :info@sonatech.ac.in \ncontact no : +91 - 427 - 4099999 "
+   ],
+   "context_set": ""
+},
+{
+  "tag": "rules",
+   "patterns":[
+     "What are the rules and regulations of the college?",
+    "Can you tell me about the college policies?",
+    "Are there any specific guidelines I need to follow in the college?",
+    "What are the disciplinary measures at the college?",
+    "Where can I find information about the code of conduct?",
+     "give me the college rules and regulation"
+   ],
+  "responses": [
+    "Students should wear ID CARD inside the campus.\nStudents should not disturb the classes by unnecessarily     \nmaking noise, standing on the corridor, lounge, etc.\nStudents are strictly forbidden from smoking anywhere in the campus.\nStudents are not allowed to use mobile phones anywhere in the campus.\nStudents are allowed to organise or attend any meeting in the institution or outside only with the prior permission of  the Principal / HOD.\nStudents may use two-wheelers of capacity less than 100 cc only.  They      should have valid driving licence and should ride within the speed limit of 10 km/hr within the campus. Students should wear safety helmets.\nStudents should handle college property carefully without causing any damage."],
+  "context_set": ""
 },
  {
    "tag": "fees",
@@ -212,44 +270,33 @@
    ],
    "context_set": ""
 },
- {
-   "tag": "location",
-   "patterns": [
-      "where is the college located",
-      "college is located at",
-      "where is college",
-      "where is college located",
-      "address of college",
-      "how to reach college",
-      "college location",
-      "college address",
-      "wheres the college",
-      "how can I reach college",
-      "whats is the college address",
-      "what is the address of college",
-      "address",
-      "Could you please provide me with the address of the college?",
-      "I need the physical address of the college, please.",
-      "What is the official address of the college?",
-      "Can you share the location details of the college?",
-      "Where can I find the college? I need the address.",
-      "May I have the street address of the college?",
-      "What is the postal address for the college?",
-      "I'm looking for the college's address, can you assist?",
-      "Could you let me know where the college is located?",
-      "What is the street name and number for the college?",
-      "location"
+{
+  "tag": "history",
+   "patterns":[
+     "Could you please provide me with the history of the college?",
+      "I would like to request information regarding the historical background of the college.",
+     "Would it be possible to get some information about the college's history?",
+      "May I have details about the historical development of the college, please?",
+     "Can you tell me about the history of the college?",
+      "What is the historical background of this college?",
+      "Tell me about the history of this college.",
+    "What is the historical background of this college?",
+    "When was this college founded?",
+    "Can you give me some information about the early years of this college?",
+    "Who were the founders of this college?",
+    "What are some significant milestones in the history of this college?",
+    "I'm interested in learning about the historical development of this college.",
+    "How did this college come into existence?",
+    "Could you provide me with key events in the history of this college?",
+     "give me college history"
    ],
-   "responses": [
-      "Sona College of Technology,\nJunction Main Road,\nSalem - 636 005,\nTamilnadu, India.,\nEmail :info@sonatech.ac.in \ncontact no : +91 - 427 - 4099999 "
-   ],
-   "context_set": ""
+  "responses": ["The Sona Group is steeped in more than 100 years of success and tradition tracing back to pre-Independence. The group was founded by the doyen of textile industries of the early twentieth century, Karumuttu Thiagarajar Chettiar. He oozed passion and patriotism for his motherland and fought for Her freedom along with other great freedom fighters of this nation. Karumuttu Thiagarajar Chettiar’s prominence is etched in the tapestry of our nation by the role he played in the transformation of Mohandas Karamchand Gandhi to Gandhiji, The Father of our Nation. This defining moment played out in 1938, within the walls of Karumuttu Thiagarajar Chettiar’s home when Gandhiji visited Madurai. Gandhiji wore his trademark Loin cloth, vowing not to wear a shirt every again after seeing daily wage workers who could not afford one.\nKarumuttu Thiagarajar Chettiar saw the plight of workers in the plantations and fought for their liberation. His idea of liberation was to set people free and even to a higher level of setting minds free through education. He envisioned an Indian nation that would stand tall in the global stage built on its robust educated society with its traditional values and wealth. He set this idea in motion by establishing Thiagarajar Engineering College in Madurai, and Thiagarajar Polytechnic College, Salem, and sowed the seeds of quality technical education in India. Those seeds now stand as a global brand called ‘Sona’ whose roots run deep into education, textile, IT, research, manufacturing, outsourcing, logistics and many more. The Sona Group’s quest to cater quality higher education has led to its banyan tree like growth with Thiagarajar Polytechnic College, Sona College of Technology, Sona School of Management, Sona College of Arts and Science , Sona Valliappa Public School and Sona Medical College of Naturopathy and Yoga."],
+  "context_set": ""
 },
  {
    "tag": "hostel",
    "patterns": [
       "hostel facility",
-      "hostel servive",
       "hostel location",
       "hostel address",
       "hostel facilities",
@@ -300,7 +347,7 @@
    "tag": "document",
    "patterns": [
       "document to bring",
-      "documents needed for admision",
+      "documents needed for admission",
       "documents needed at the time of admission",
       "documents needed during admission",
       "documents required for admission",
@@ -392,13 +439,11 @@
       "canteen facilities",
       "canteen facility",
       "is there any canteen",
-      "Is there a cafetaria in college",
       "Does college have canteen",
       "Where is canteen",
-      "where is cafetaria",
       "canteen",
-      "Food",
-      "Cafetaria"
+      "Food"
+
    ],
    "responses": [
       "Our university has canteen with variety of food available"
